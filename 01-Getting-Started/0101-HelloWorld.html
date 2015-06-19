@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>This is Hello World example</h1>
+    <h1 class="myclass">This is Hello World example - class="myclass"</h1>
+    <h1>This is Hello World example</h1>
+
+    <p>querySelector - Returns null if no matches are found; otherwise, it returns the first matching element.</p>
+    <script>
+        var myHeading = document.querySelector('h1');
+        myHeading.innerHTML = 'Hello world!';
+
+        myHeading = document.querySelector(".myclass");
+        myHeading.innerHTML = 'Hello world!';
+    </script>
+</body>
+</html>
